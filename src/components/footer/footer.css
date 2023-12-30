@@ -1,0 +1,126 @@
+#footer {
+    background: var(--grey_color);
+    padding: 3rem 0;
+    padding-bottom: 1rem;
+}
+
+.footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    color: #fff;
+}
+
+.footer_wrapper .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #fff;
+    max-width: 100%;
+}
+
+.footer_wrapper .top .footer_logo {
+    width: 120px;
+}
+
+.footer_wrapper .top > ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.footer_wrapper .top ul li {
+    color: #949494;
+    font-size: var(--primary_font);
+}
+
+.footer_wrapper .top ul li > span {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer_wrapper .bottom .divider {
+    width: 300px;
+    height: 1px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.footer_wrapper .bottom .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.footer_wrapper .bottom .social .social_icon {
+    font-size: 2rem;
+    margin: 2rem 0;
+    cursor: pointer;
+    color: var(--primary_color);
+    transition: opacity var(--transition);
+}
+
+.footer_wrapper .bottom .social .social_icon:hover,
+.footer_wrapper .bottom .social .social_icon:focus-visible {
+    opacity: 0.5;
+}
+
+.footer_wrapper .bottom .main {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.footer_wrapper .bottom .main p{
+    font-size: 12px;
+    color: var(--ligt_gray);
+    color: var(--primary_color);
+}
+
+/* .footer_wrapper .bottom .main .right p {
+} */
+
+
+
+
+/* ========== MEDIA QUERY ========== */
+@media screen and (max-width:750px) {
+    .footer_wrapper .top > ul {
+        gap: 1rem;
+    }
+}
+
+
+/* ======  MAX-WIDTH: 600PX ======= */
+@media screen and (max-width:500px) {
+    .footer_wrapper .top .footer_logo {
+        width: 100px;
+    }
+
+    .footer_wrapper .top > ul {
+       flex-direction: column;
+    }
+
+    .footer_wrapper .bottom .divider {
+        width: 300px;
+        height: 1px;
+        background-color: #fff;
+        margin: auto;
+    }
+    
+    .footer_wrapper .bottom .social {
+        gap: 0.7rem;
+    }
+
+    .footer_wrapper .bottom .social .social_icon {
+        font-size: 1.5rem;
+    }
+   
+ }

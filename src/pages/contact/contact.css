@@ -1,0 +1,176 @@
+
+#contact-main .contact-main-showcase{
+  position: relative;
+  padding: 8rem 0 5rem 0;
+  /* background:url("../../assets/images/contact.jpg")no-repeat center center/cover ; */
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-main .contact-main-showcase:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+#contact-main .contact-main-showcase .head {
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  color: #f4f4f4;
+}
+
+#contact-main .contact-container p {
+  font-size: 18px;
+  padding: 0.5rem 0;
+}
+
+#contact-main .contact-container .top {
+  margin-top: 3rem;
+  padding: 0 1rem;
+}
+
+#contact-main .contact-container .top p {
+  font-size: 2rem;
+  color: var(--primary_color);
+}
+
+#contact-main .contact-container .top .underline {
+  height: 4px;
+  width: 60px;
+  background-color: var(--primary_color);
+  margin: auto;
+}
+
+#contact-main .contact-container .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 20px;
+    box-shadow: var(--box_shadow);
+    text-align: center;
+  }
+
+  #contact-main .contact-container .left,
+  #contact-main .contact-container .right {
+    width: 50%;
+    padding: 1rem;
+  }
+
+  #contact-main .contact-container .left p:first-child{
+    font-size: 2rem;
+    color: var(--primary_color);
+    padding: 1rem;
+  }
+
+  #contact-main .contact-container .left .emphasis {
+    font-weight: bold;
+  }
+
+  #contact-main .contact-container .left p span {
+    color: var(--primary_color);
+  }
+
+  #contact-main .form-group {
+    max-width: 400px;
+    margin: 15px 0;
+    text-align: left;
+  }
+  
+  #contact-main .contact-container label {
+    display: block;
+    font-size: 1rem;
+  }
+
+  #contact-main .contact-container input {
+    height: 50px;
+  }
+  
+  #contact-main .contact-container input,
+  #contact-main .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.02);
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  #contact-main .submit-button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    /* margin-top: 10px; */
+  }
+  
+  #contact-main .submit-button:hover,
+  #contact-main .submit-button:focus {
+    background-color: #303131;
+  }
+
+  @media screen and (max-width: 1070px) {
+    #contact-main .contact-container .bottom{
+      max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    box-shadow: none;
+  }
+
+  #contact-main .contact-container .left,
+  #contact-main .contact-container .right {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #contact-main .form-group {
+    max-width: 100%;
+
+  }
+
+  /* #contact-main .contact-container input,
+  #contact-main .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.02);
+    border-radius: 5px;
+    margin-top: 5px;
+  } */
+  }
+
+  @media screen and (max-width: 600px) {
+    #contact-main .contact-container h1 {
+        font-size: 30px;
+      }
+
+      #contact-main .contact-container p {
+        font-size: 16px;
+      }
+
+      #contact-main .contact-container label {
+        font-size: 15px;
+      }
+  }
+
+  @media screen and (max-width: 400px) {
+    #contact-main .contact-container .top p,
+    #contact-main .contact-container .bottom p:first-child  {
+      font-size: 1.5rem;
+    }
+
+  }
