@@ -73,7 +73,7 @@
 .footer_wrapper .bottom .main {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     gap: 1rem;
     margin-top: 2rem;
 }
@@ -123,4 +123,8 @@
         font-size: 1.5rem;
     }
    
+    .footer_wrapper .bottom .main {
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
  }

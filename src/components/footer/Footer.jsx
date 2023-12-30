@@ -3,7 +3,8 @@ import "./footer.css";
 import { Link } from "react-router-dom";
 
 import footerLogo from "../../assets/logo 1.png";
-import { FaFacebook, FaInstagram, FaSpotify, FaSoundcloud, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaSpotify, FaSoundcloud, FaTwitter, FaYoutube, FaApple, FaTiktok } from "react-icons/fa";
+import { CiWavePulse1 } from "react-icons/ci";
 
 
 function Footer() {
@@ -18,19 +19,26 @@ function Footer() {
           <ul>
             <li><span>ADDRESS:</span> 58 LONG ROAD, UK</li>
             <li><span>PHONE:</span> +233 54 605 6456</li>
-            <li><span>E-MAIL:</span> kaybryn66@gmail.com</li>
+            <li><span>E-MAIL:</span> Officialkaybryn@gmail.com</li>
           </ul>
           </div>
           <div className="bottom">
             <div className="divider"></div>
 
             <div className="social">
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaYoutube className="social_icon"/></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaSoundcloud className="social_icon"/></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebook className="social_icon"/></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaSpotify className="social_icon"/></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaInstagram className="social_icon"/></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaTwitter className="social_icon"/></a>
+              <a href="https://music.apple.com/gb/artist/kay-bryn/1470837370" target="_blank" rel="noopener noreferrer"><FaApple className="social_icon" /></a>
+            <a href="https://www.youtube.com/results?search_query=kaybryn" target="_blank" rel="noopener noreferrer"><FaYoutube className="social_icon"/></a>
+            <a href="https://soundcloud.com/kay-bryn" target="_blank" rel="noopener noreferrer"><FaSoundcloud className="social_icon"/></a>
+
+            <a href="https://www.tiktok.com/@kay_bryn?_t=8bfEadJ3HRL&_r=1" target="_blank" rel="noopener noreferrer"><FaTiktok className="social_icon"/></a>
+            
+            <a href=" https://www.facebook.com/kaybrynofficial" target="_blank" rel="noopener noreferrer"><FaFacebook className="social_icon"/></a>
+            <a href="https://open.spotify.com/artist/6u36hFAxWHSh5YAMFT5DWO?si=kjuRtRKWTrenF0P4s3x-_Q" target="_blank" rel="noopener noreferrer"><FaSpotify className="social_icon"/></a>
+            <a href=" https://www.instagram.com/Iam_kaybryn/" target="_blank" rel="noopener noreferrer"><FaInstagram className="social_icon"/></a>
+
+            <a href="https://twitter.com/Iamkaybryn" target="_blank" rel="noopener noreferrer"><FaTwitter className="social_icon"/></a>
+            <a href="https://audiomack.com/kay-bryn" target="_blank" rel="noopener noreferrer"> <CiWavePulse1 className="social_icon"/></a>
+
             </div>
 
             <div className="main">

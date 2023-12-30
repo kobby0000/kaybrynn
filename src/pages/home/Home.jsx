@@ -1,9 +1,10 @@
 import {useEffect, useState} from "react";
 import "./home.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FaFacebook, FaInstagram, FaSpotify, FaSoundcloud, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaSpotify, FaSoundcloud, FaTwitter, FaYoutube,FaApple, FaTiktok } from "react-icons/fa";
+import { CiWavePulse1 } from "react-icons/ci";
 import {Media} from "../../assets/index";
 
 // images
@@ -63,37 +64,47 @@ function Home() {
              data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom"
           className="home_social">
+            <div className="slide_in">
+            <a href="https://music.apple.com/gb/artist/kay-bryn/1470837370" target="_blank" rel="noopener noreferrer"><FaApple /></a>
+            </div>
             <div
             className="slide_in"
             >
             <a 
-            href="http://" target="_blank" rel="noopener noreferrer"><FaYoutube className="social_icon"/></a>
+            href="https://www.youtube.com/results?search_query=kaybryn" target="_blank" rel="noopener noreferrer"><FaYoutube className="social_icon"/></a>
             </div>
             <div
             className="slide_in"
             >
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaSoundcloud className="social_icon"/></a>
+            <a href="https://soundcloud.com/kay-bryn" target="_blank" rel="noopener noreferrer"><FaSoundcloud className="social_icon"/></a>
+            </div>
+            <div className="slide_in">
+              <a href="https://www.tiktok.com/@kay_bryn?_t=8bfEadJ3HRL&_r=1" target="_blank" rel="noopener noreferrer" className="social_icon"><FaTiktok /></a>
+            </div>
+
+            <div
+            className="slide_in"
+            >    
+            <a href=" https://www.facebook.com/kaybrynofficial" target="_blank" rel="noopener noreferrer"><FaFacebook className="social_icon"/></a>
             </div>
             <div
             className="slide_in"
             >
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebook className="social_icon"/></a>
+            <a href="https://open.spotify.com/artist/6u36hFAxWHSh5YAMFT5DWO?si=kjuRtRKWTrenF0P4s3x-_Q" target="_blank" rel="noopener noreferrer"><FaSpotify className="social_icon"/></a>
             </div>
             <div
             className="slide_in"
             >
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaSpotify className="social_icon"/></a>
+            <a href=" https://www.instagram.com/Iam_kaybryn/" target="_blank" rel="noopener noreferrer"><FaInstagram className="social_icon"/></a>
             </div>
             <div
             className="slide_in"
             >
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaInstagram className="social_icon"/></a>
-            </div>
-            <div
-            className="slide_in"
-            >
-            <a href="http://" target="_blank" rel="noopener noreferrer"><FaTwitter className="social_icon"/></a>
-            </div>         
+            <a href="https://twitter.com/Iamkaybryn" target="_blank" rel="noopener noreferrer"><FaTwitter className="social_icon"/></a>
+            </div> 
+            <div className="slide_in">
+            <a href="https://audiomack.com/kay-bryn" target="_blank" rel="noopener noreferrer"> <CiWavePulse1 className="social_icon"/></a>
+              </div>        
             </div>
         </div>
           </div>
@@ -234,7 +245,8 @@ function Home() {
             </div>
               <button className="btn home_videos_btn">
                 <span></span>
-                <Link to="/music_videos">See More Videos</Link>
+                <a href="https://www.youtube.com/results?search_query=kaybryn" target="_blank" rel="noopener noreferrer">See More Videos</a>
+                {/* <Link to="/music_videos"></Link> */}
               </button>
           </div>
         </div>
@@ -299,7 +311,11 @@ function Home() {
              data-aos-easing="ease-in"
              data-aos-delay="500"
                 data-aos-duration="900"
-            >Meet Kwame Mensah, a dynamic Hiplife artist hailing from Ghana but making waves in the UK music scene. Known for his unique fusion of traditional Ghanaian rhythms with contemporary hip-hop beats, Kwame has become a trailblazer in the Hiplife genre. Having collaborated with renowned artists both in Ghana and the UK, his music transcends borders, delivering infectious rhythms that celebrate his cultural roots while embracing the diversity of his international experiences. Kwame Mensah's compelling journey continues to inspire and reshape the global Hiplife landscape...</p>
+            >Kay Bryn is a Ghanaian UK based Artiste hailing from the streets of London. Born on the 6th of July in Takoradi (Western Region) to Ghanaian Parents. His passion for music grew strongly on the runaway.
+<br /><br />
+            He is a prolific Afro-fusion Artiste, a runway model (Kobby The Model) and a coach. Apart from modelling he has an incredible touch of an African sounds together with either afro pop, afro swing, hiphop, reggae, hip-life, the hi-life and the contemporary gospel music. 
+            The extreme intricate details hidden inside his songs are appealing to anyone who loves these genres of music.
+            Lethal combination of modelling and music make him the complete performer and unique in his forte.</p>
             <div
              data-aos="fade-in"
              data-aos-easing="ease-in"
@@ -309,7 +325,8 @@ function Home() {
             >
             <button className="btn">
               <span></span>
-              <Link to="/biography">Biography</Link>
+              <a href="https://www.youtube.com/results?search_query=kaybryn" target="_blank" rel="noopener noreferrer">Biography</a>
+              {/* <Link to="/biography"></Link> */}
             </button>
             </div>
           </div>

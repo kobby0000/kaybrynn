@@ -2,14 +2,14 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 70px;
     z-index: 100;
     background-color: transparent;
 }
 
 #header.active {
-    background-color: #222222;
+    background-color: rgba(34, 34, 34, 0.7);
 }
 
 
@@ -74,9 +74,7 @@
 }
 
 #header .header_wrapper .header_right .btn{
-  padding: 0.7rem 1.3rem;
     background-color: var(--primary_color);
-    isolation: isolate;
 }
 
 #header .header_wrapper .header_right .btn:hover a, 
@@ -87,9 +85,8 @@
 #header .header_wrapper .header_right a{
     color: #fff;
     font-size: var(--primary_font);
+    padding: 0.7rem 1.3rem;
     isolation: isolate;
-    height: 100%;
-    width: 100%;
 }
 
 #header .header_wrapper .humburger {
@@ -158,7 +155,7 @@
     transition: all var(--transition);
     height: 100vh;
     transform: translateY(-100vh);
-    background-color: #222;
+    background-color: rgba(34, 34, 34);
 }
 
     #header .header_wrapper .links.toggle {
