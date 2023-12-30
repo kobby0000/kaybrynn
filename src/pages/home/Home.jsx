@@ -168,7 +168,7 @@ function Home() {
         //          data-aos-duration="900"
         // data-aos-anchor-placement="top-bottom"
               className="frame">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/eSjoEzDXKGY?si=wNdQhv-hetEY4s9P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eSjoEzDXKGY?si=wNdQhv-hetEY4s9P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div className="title">
                 <a href="https://youtu.be/eSjoEzDXKGY?si=wNdQhv-hetEY4s9P" target="_blank" rel="noopener noreferrer">
                   Kay Bryn Hyira Me ft. Dopeation
