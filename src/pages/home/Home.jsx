@@ -52,7 +52,7 @@ function Home() {
             data-aos="fade-up"
            data-aos-easing="ease-in"
            data-aos-delay="600"
-              data-aos-duration="900"
+              data-aos-duration="600"
             >
 
           <p>Stay Connected</p>
@@ -60,8 +60,8 @@ function Home() {
           <div 
           data-aos="fade-up"
           data-aos-easing="ease-in"
-          data-aos-delay="600"
-             data-aos-duration="1000"
+          data-aos-delay="800"
+             data-aos-duration="600"
      data-aos-anchor-placement="top-bottom"
           className="home_social">
             <div className="slide_in">
