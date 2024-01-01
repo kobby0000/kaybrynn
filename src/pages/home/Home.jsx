@@ -7,9 +7,10 @@ import { FaFacebook, FaInstagram, FaSpotify, FaSoundcloud, FaTwitter, FaYoutube,
 import { CiWavePulse1 } from "react-icons/ci";
 import {Media} from "../../assets/index";
 
-// images
+// images & videos
 // import videoBackground from "../../assets/kayGif.gif";
 import quote from "../../assets/carbon_quotes.png";
+import backgroudVideo from "../../assets/WhatsAppVideo.mp4"
 
 
 import ScrollToTop from "../../components/scollToTop/ScrollToTop";
@@ -26,6 +27,11 @@ function Home() {
   return (
     <div>
       <section id="home_showcase">
+      <div className="video-background">
+      <video autoPlay loop muted playsInline>
+        <source src={backgroudVideo} type="video/mp4" />
+      </video>
+    </div>
         <div className="home_showcase_wrapper container">
           <div className="top">
           <div
@@ -51,8 +57,9 @@ function Home() {
             <div 
             data-aos="fade-up"
            data-aos-easing="ease-in"
-           data-aos-delay="600"
+           data-aos-delay="400"
               data-aos-duration="600"
+              data-aos-anchor-placement="top-bottom"
             >
 
           <p>Stay Connected</p>
@@ -60,7 +67,7 @@ function Home() {
           <div 
           data-aos="fade-up"
           data-aos-easing="ease-in"
-          data-aos-delay="800"
+          data-aos-delay="600"
              data-aos-duration="600"
      data-aos-anchor-placement="top-bottom"
           className="home_social">
