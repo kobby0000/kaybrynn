@@ -136,7 +136,7 @@ function Home() {
            data-aos-delay="400"
               data-aos-duration="600"
      data-aos-anchor-placement="top-bottom"
-          >"Set yourself apart from the rest, be FarFromOriginal” (FFO)"
+          >"Set yourself apart from the rest, be FarFromOriginal” (FFO)
           </p>
           
           <p
