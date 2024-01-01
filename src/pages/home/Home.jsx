@@ -49,7 +49,7 @@ function Home() {
            data-aos-delay="600"
               data-aos-duration="900"
            >
-          <p>Allow us to introduce you to the <span>Kay</span>Bryn. The artistic creative mind at it’s best.</p>
+          <p>Allow us to introduce you to <span>Kay</span>Bryn. The artistic creative mind at it’s best.</p>
            </div>
 
         </div>
