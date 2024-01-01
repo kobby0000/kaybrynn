@@ -42,8 +42,8 @@ function Gallery() {
             <p
               data-aos="flip-left"
               data-aos-easing="ease-in"
-              data-aos-delay="200"
-              data-aos-duration="400"
+              data-aos-delay="400"
+              data-aos-duration="600"
               data-aos-anchor-placement="top-bottom"
               className="top"
             >
@@ -53,7 +53,7 @@ function Gallery() {
               data-aos="flip-left"
               data-aos-easing="ease-in"
               data-aos-delay="400"
-              data-aos-duration="400"
+              data-aos-duration="900"
               data-aos-anchor-placement="top-bottom"
             >
               We've added a diverse lineup of upcoming events to spark your
@@ -67,9 +67,9 @@ function Gallery() {
             <div 
              data-aos="zoom-in-up"
              data-aos-easing="ease-in"
-                data-aos-delay="800"
-                data-aos-duration="400"
-                data-aos-anchor-placement="top-bottom"
+                data-aos-delay="400"
+                data-aos-duration="900"
+                // data-aos-anchor-placement="top-bottom"
             className="left">
               <img src={flyer} alt="kay bryn music" />
             </div>
@@ -77,8 +77,8 @@ function Gallery() {
               <p
                 data-aos="flip-left"
                 data-aos-easing="ease-in"
-                data-aos-delay="800"
-                data-aos-duration="400"
+                data-aos-delay="400"
+                data-aos-duration="900"
                 data-aos-anchor-placement="top-bottom"
               >
                 It's About Time !!!
@@ -119,7 +119,7 @@ function Gallery() {
           <p
             data-aos="flip-left"
             data-aos-easing="ease-in"
-            data-aos-delay="700"
+            data-aos-delay="600"
             data-aos-duration="900"
             data-aos-anchor-placement="top-bottom"
           >
