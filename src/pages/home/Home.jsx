@@ -136,7 +136,8 @@ function Home() {
            data-aos-delay="400"
               data-aos-duration="600"
      data-aos-anchor-placement="top-bottom"
-          >"Music expresses that which cannot be put into words and that which cannot remain silent."</p>
+          >"Set yourself apart from the rest, be FarFromOriginal” (FFO)"
+          </p>
           
           <p
            data-aos="flip-left"
@@ -144,7 +145,7 @@ function Home() {
            data-aos-delay="500"
               data-aos-duration="600"
      data-aos-anchor-placement="top-bottom"
-          >Victor Hugo</p>
+          > Kay Bryn </p>
         </div>
 
       </div>
@@ -168,13 +169,13 @@ function Home() {
                 data-aos-duration="900"
        data-aos-anchor-placement="top-bottom"
             className="underline"></div>
-            <p
+            {/* <p
              data-aos="fade-left"
              data-aos-easing="ease-in"
              data-aos-delay="700"
                 data-aos-duration="900"
        data-aos-anchor-placement="top-bottom"
-            >Click to watch  latest music Video bangers </p>
+            >Click to watch  latest music Video bangers </p> */}
           </div>
 
           <div className="bottom">

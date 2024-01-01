@@ -188,6 +188,11 @@
     font-family: Raleway;
 }
 
+.home_sensation .sensation_wrapper p:nth-child(2) {
+  font-weight: 200;
+  color: #f4f4f4;
+}
+
 .home_sensation .sensation_wrapper p:nth-child(3) {
     font-size: 1.1rem;
     font-weight: 500;
