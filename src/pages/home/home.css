@@ -78,9 +78,9 @@
     flex-direction: column;
     align-items: center;
     justify-content:flex-end;
-    gap: 1rem;
+    gap: 0.7rem;
     height: 50%;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 #home_showcase .home_showcase_wrapper .bottom img {
