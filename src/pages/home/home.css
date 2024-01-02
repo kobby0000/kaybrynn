@@ -359,14 +359,14 @@
     color: var(--primary_color);
     font-weight: 400;
   }
-
+  
   #home_about .home_about_wrapper .left .text > p:last-child {
     font-style: italic;
     padding-bottom: 2rem;
   }
-
+  
   #home_about .home_about_wrapper .left .overlays {
-      position: absolute;
+    position: absolute;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -375,60 +375,62 @@
     z-index: -1;
     bottom: 0;
   }
-
+  
   #home_about .home_about_wrapper .left .overlays .overlay{
     width: 180px;
     bottom: 0;
     z-index: 1;
   }
-
+  
   #home_about .home_about_wrapper .left .overlays .overlay:nth-child(1) {
     height: 450px;
     background-color: rgba(144, 99, 18, 0.60);
   }
-
+  
   #home_about .home_about_wrapper .left .overlays .overlay:nth-child(2) {
     height: 380px;
     background: rgba(63, 63, 63, 0.60);
   }
-
+  
   #home_about .home_about_wrapper .left .overlays .overlay:nth-child(3) {
     height: 330px;
     background: rgba(0, 0, 0, 0.70);
   }
-
+  
   #home_about .home_about_wrapper .left img {
     width: 50px;
   }
-
+  
   #home_about .home_about_wrapper .right {
-    font-family: Raleway;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    gap: 2rem;
     padding: 2rem 1rem;
   }
-
+  
   #home_about .home_about_wrapper .right p {
-max-width: 400px;
-line-height: 1.5;
+    max-width: 400px;
+    line-height: 1.5;
   }
-
+  
   #home_about .home_about_wrapper .right p:first-child {
+    font-family: Raleway;
     font-size: var(--head_font);
     color: var(--primary_color);
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   #home_about .home_about_wrapper .right .btn {
     background-color: var(--primary_color);
+    margin: 2rem 0;
 }
 
 #home_about .home_about_wrapper .right .btn:hover,
 #home_about .home_about_wrapper .right .btn:focus-visible{
-  border: 1px solid var(--primary_color);
+  outline: 1px solid var(--primary_color);
 }
 
 #home_about .home_about_wrapper .right .btn a {
@@ -458,6 +460,10 @@ line-height: 1.5;
     text-align: center;
     text-transform: capitalize;
     margin: 1rem 0.5rem;
+  }
+
+  #home_gallery .underline {
+    background: #f4f4f4;
   }
 
   .home_gallery_wrapper .media_container {

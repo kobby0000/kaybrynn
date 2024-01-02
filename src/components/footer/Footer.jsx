@@ -17,8 +17,8 @@ function Footer() {
             <img src={footerLogo} alt="kay bryn music" className="footer_logo" />
             </Link>
           <ul>
-            <li><span>ADDRESS:</span> 58 LONG ROAD, UK</li>
-            <li><span>PHONE:</span> +233 54 605 6456</li>
+            {/* <li><span>ADDRESS:</span> 58 LONG ROAD, UK</li> */}
+            <li><span>PHONE:</span> +44 7838 681583</li>
             <li><span>E-MAIL:</span> Officialkaybryn@gmail.com</li>
           </ul>
           </div>

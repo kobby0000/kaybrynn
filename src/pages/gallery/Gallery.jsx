@@ -49,6 +49,14 @@ function Gallery() {
             >
               Event Update
             </p>
+            <div
+              data-aos="fade-left"
+              data-aos-easing="ease-in"
+              data-aos-delay="500"
+              data-aos-duration="900"
+              data-aos-anchor-placement="top-bottom"
+              className="underline"
+            ></div>
             <p
               data-aos="flip-left"
               data-aos-easing="ease-in"
@@ -64,13 +72,14 @@ function Gallery() {
             </p>
           </div>
           <div className="bottom">
-            <div 
-             data-aos="zoom-in-up"
-             data-aos-easing="ease-in"
-                data-aos-delay="400"
-                data-aos-duration="900"
-                // data-aos-anchor-placement="top-bottom"
-            className="left">
+            <div
+              data-aos="zoom-in-up"
+              data-aos-easing="ease-in"
+              data-aos-delay="400"
+              data-aos-duration="900"
+              // data-aos-anchor-placement="top-bottom"
+              className="left"
+            >
               <img src={flyer} alt="kay bryn music" />
             </div>
             <article className="right">
@@ -81,16 +90,32 @@ function Gallery() {
                 data-aos-duration="900"
                 data-aos-anchor-placement="top-bottom"
               >
-                It's About Time !!!
+                Kay Bryn Live In Concert
               </p>
+              <div
+                data-aos="fade-left"
+                data-aos-easing="ease-in"
+                data-aos-delay="500"
+                data-aos-duration="900"
+                data-aos-anchor-placement="top-bottom"
+                className="underline"
+              ></div>
               <div className="cards">
-                <div className="left">
-                  <div className="card">
-                    <p>23 Mar</p>
-                    <p>London, UK</p>
-                    <p>22 avenu road Great Arena</p>
-                  </div>
-                  <div className="card">
+                {/* <div className="left"> */}
+                <div className="card">
+                  <p
+                    data-aos="flip-left"
+                    data-aos-easing="ease-in"
+                    data-aos-delay="500"
+                    data-aos-duration="900"
+                    data-aos-anchor-placement="top-bottom"
+                  >
+                    coming Soon !!!
+                  </p>
+                  {/* <p>London, UK</p>
+                    <p>22 avenu road Great Arena</p> */}
+                </div>
+                {/* <div className="card">
                     <p>23 Mar</p>
                     <p>London, UK</p>
                     <p>22 avenu road Great Arena</p>
@@ -106,9 +131,9 @@ function Gallery() {
                     <p>23 Mar</p>
                     <p>London, UK</p>
                     <p>22 avenu road Great Arena</p>
-                  </div>
-                </div>
+                  </div> */}
               </div>
+              {/* </div> */}
             </article>
           </div>
         </div>
@@ -125,6 +150,14 @@ function Gallery() {
           >
             Performance & Stage Craft
           </p>
+          <div
+            data-aos="fade-left"
+            data-aos-easing="ease-in"
+            data-aos-delay="500"
+            data-aos-duration="900"
+            data-aos-anchor-placement="top-bottom"
+            className="underline"
+          ></div>
           <div className="media_container">
             {Performance.map((file, index) => (
               <div className="media" key={index} onClick={() => setFile(file)}>
@@ -161,6 +194,13 @@ function Gallery() {
           >
             Archive
           </p>
+          <div 
+             data-aos="fade-in"
+             data-aos-easing="ease-in"
+             data-aos-delay="500"
+                data-aos-duration="900"
+       data-aos-anchor-placement="top-bottom"
+            className="underline"></div>
           <div className="media_container">
             {Archive.map((file, index) => (
               <div className="media" key={index} onClick={() => setFile(file)}>

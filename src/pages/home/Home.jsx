@@ -50,7 +50,7 @@ function Home() {
            data-aos-delay="600"
               data-aos-duration="900"
            >
-          <p>Allow us to introduce you to <span>Kay</span>Bryn. The artistic creative mind at it’s best.</p>
+          <p>Allow us to introduce you to <span>Kay </span>Bryn. The artistic creative mind at it’s best.</p>
            </div>
 
         </div>
@@ -315,6 +315,13 @@ function Home() {
              data-aos-delay="400"
                 data-aos-duration="900"
             >About me</p>
+            <div 
+             data-aos="fade-left"
+             data-aos-easing="ease-in"
+             data-aos-delay="500"
+                data-aos-duration="900"
+       data-aos-anchor-placement="top-bottom"
+            className="underline"></div>
             <p
              data-aos="fade-right"
              data-aos-easing="ease-in"
@@ -351,14 +358,21 @@ function Home() {
              data-aos-duration="900"
     data-aos-anchor-placement="top-bottom"
           >Events & Gallery</p>
+          <div 
+             data-aos="fade-left"
+             data-aos-easing="ease-in"
+             data-aos-delay="500"
+                data-aos-duration="900"
+       data-aos-anchor-placement="top-bottom"
+            className="underline"></div>
           <div className="media_container">
           {
             Media.map((file, index) => (
               <div className="media" key={index} onClick={() => setFile(file)}>
                 {
                 file.type === 'image'
-                ? <img src={file.url} alt="Kay Bryn Music"></img>
-                : <video src={file.url} muted />
+                ? <img src={file.url} alt="Kay Bryn Music" loading="lazy"></img>
+                : <video src={file.url} muted loading="lazy"/>
                 }
               </div>
             ))
@@ -370,8 +384,8 @@ function Home() {
             >&times;</span>
             {
               file?.type === 'video'
-              ? <video src={file?.url} muted autoplay controls />
-              : <img src={file?.url} alt="kay bryn music" />
+              ? <video src={file?.url} muted autoplay controls loading="lazy"/>
+              : <img src={file?.url} alt="kay bryn music" loading="lazy"/>
             }
           </div>
           <div className="gallery_btn_container">

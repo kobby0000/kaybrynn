@@ -1,166 +1,179 @@
 #gallery_showcase {
-    background: url("../../assets/Group7.png")no-repeat top center/cover;
-    /* min-height: 70vh; */
+  background: url("../../assets/Group7.png") no-repeat top center/cover;
+  /* min-height: 70vh; */
 }
 
 .gallery_wrapper_showcase {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 85vh;
 }
 
 #gallery_showcase .gallery_wrapper_showcase p {
-    font-size: 3rem;
-    color: var(--primary_color);
+  font-size: 3rem;
+  color: var(--primary_color);
 }
-
 
 /* ======= SECTION: GALLERY_UPDATES ======= */
 
 #gallery_update .gallery_update_wrapper {
-    padding: 2rem 0;
-    background-color: var(--secondary_color);
+  padding: 2rem 0;
+  background-color: var(--secondary_color);
 }
 
 .gallery_update_wrapper .top {
-    padding: 1rem 1rem 2rem 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  padding: 1rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery_update_wrapper .top p {
-    text-align: center;
-    color: #f4f4f4;
-    font-weight: 300;
+  text-align: center;
+  color: #f4f4f4;
+  /* font-weight: 300; */
 }
 
 .gallery_update_wrapper .top p:nth-child(1) {
-    font-size: var(--head_font);
-    color: var(--primary_color);
-    padding-bottom: 1rem;
+  font-family: Raleway;
+  font-size: var(--head_font);
+  color: var(--primary_color);
+  padding: 0.5rem 1rem;
 }
 
-.gallery_update_wrapper .top p:nth-child(2) {
-    max-width: 600px;
-    padding: 0 1rem;
-    color: #f4f4f4;
-    font-family: Raleway;
+.gallery_update_wrapper .underline {
+  margin-bottom: 1rem;
 }
 
+.gallery_update_wrapper .top p:nth-child(3) {
+  max-width: 600px;
+  padding: 0 1rem;
+  color: #f4f4f4;
+  font-family: Raleway;
+}
 
 .gallery_update_wrapper .bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .gallery_update_wrapper .bottom .left,
 .gallery_update_wrapper .bottom .right {
-    width: 50%;
-}
-
-.gallery_update_wrapper .bottom .left img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    object-position: top center;
-    border-bottom: 2rem solid var(--primary_color);
-}
-
-.gallery_update_wrapper .bottom .right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 0;
-}
-
-.gallery_update_wrapper .bottom .right p {
-    max-width: 400px;
-    color: #777;
+  width: 50%;
 }
 
 .gallery_update_wrapper .bottom .right p:nth-child(1) {
-    /* padding: 0 0 1.5rem 0; */
-    font-size: var(--head_font);
-    color: var(--primary_color);
-    /* text-align: center; */
+  padding: .5rem 1rem;
+}
+
+.gallery_update_wrapper .bottom .left img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top center;
+  border-bottom: 2rem solid var(--primary_color);
+}
+
+.gallery_update_wrapper .bottom .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.gallery_update_wrapper .bottom .right p {
+  /* width: 100%; */
+  text-align: center;
+  color: #777;
+}
+
+.gallery_update_wrapper .bottom .right p:nth-child(1) {
+  /* padding: 0 0 1.5rem 0; */
+  font-size: var(--head_font);
+  color: var(--primary_color);
+  font-family: Raleway;
+  /* text-align: center; */
 }
 
 .gallery_update_wrapper .bottom .right .cards {
-    display: flex;
+  display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
 
 .gallery_update_wrapper .bottom .right .cards .card {
-    margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .gallery_update_wrapper .bottom .right .cards .card p:nth-child(1) {
-font-size: 1.7rem;}
-
-
+  font-size: var(--head_font);
+  max-width: 100%;
+  color: #cccccc;
+}
 
 /* ===== PERFORMANCE_GALLERY ======= */
 #performance_gallery {
-    background-color: var(--grey_color);
+  background-color: var(--grey_color);
 }
 
 #performance_gallery .home_gallery_wrapper p {
-   color: var(--primary_color);
-   font-family: roboto;
+  color: var(--primary_color);
+  font-family:Raleway;
+}
+
+#performance_gallery  .umderline {
+  background: var(--primary_color);
 }
 
 /* ===== ARCHIVE_GALLERY ======= */
 #archive_gallery {
-    background-color: var(--secondary_color);
+  background-color: var(--secondary_color);
 }
 
 #archive_gallery .home_gallery_wrapper p {
-    color: var(--primary_color);
-    font-family: roboto;
+  color: var(--primary_color);
+  font-family: Raleway;
 }
 
+@media screen and (max-width: 700px) {
+  .gallery_wrapper_showcase {
+    min-height: 100vh;
+  }
 
-@media screen and (max-width:700px) {
-    .gallery_wrapper_showcase {
-        min-height: 100vh;
-    }
+  .gallery_update_wrapper .bottom {
+    padding: 2rem;
+  }
 
-    .gallery_update_wrapper .bottom  {
-       padding: 2rem;
-    }
-
-    .gallery_update_wrapper .bottom .left,
-.gallery_update_wrapper .bottom .right {
+  .gallery_update_wrapper .bottom .left,
+  .gallery_update_wrapper .bottom .right {
     width: 100%;
-}
+  }
 
-    .gallery_update_wrapper .bottom .left img {
-        height: 400px;
-    }
+  .gallery_update_wrapper .bottom .left img {
+    height: 400px;
+  }
 
-    .gallery_update_wrapper .bottom .right .cards {
-        flex-direction: column;
-        gap: 0;
-        margin-top: 2rem;
-    }
+  .gallery_update_wrapper .bottom .right .cards {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 2rem;
+  }
 
-    .gallery_update_wrapper .bottom .right .cards .card {
-        margin-bottom: 1.5rem;
-    }
+  .gallery_update_wrapper .bottom .right .cards .card {
+    margin-bottom: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    #gallery_showcase .gallery_wrapper_showcase p {
-        font-size: 1.8rem;
-        color: var(--primary_color);
-    }
+  #gallery_showcase .gallery_wrapper_showcase p {
+    font-size: 1.8rem;
+    color: var(--primary_color);
+  }
 }

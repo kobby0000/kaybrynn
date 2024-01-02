@@ -3,7 +3,6 @@ import "./about.css";
 import ScrollToTop from "../../components/scollToTop/ScrollToTop";
 
 // images
-import kayImg from "../../assets/Screenshot (17).png"
 
 function About() {
 
@@ -11,7 +10,7 @@ function About() {
     <div>
       <section id="about_showcase">
         <div className="about_showcase_wrapper">
-          <img src={kayImg} alt="kay bryn music" />
+          {/* <img src={kayImg} alt="kay bryn music" /> */}
         <h1>
           abot page
         </h1>
