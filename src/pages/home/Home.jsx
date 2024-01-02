@@ -14,6 +14,7 @@ import backgroudVideo from "../../assets/WhatsAppVideo.mp4"
 
 
 import ScrollToTop from "../../components/scollToTop/ScrollToTop";
+import { Link } from "react-router-dom";
 
 
 
@@ -377,6 +378,10 @@ function Home() {
         <button className="btn">
           <span></span>
           <a href="/gallery">See More</a>
+          </button>
+          <button className="btn">
+          <span></span>
+          <Link to="/gallery">See More</Link>
           </button>
           </div>
         </div>
