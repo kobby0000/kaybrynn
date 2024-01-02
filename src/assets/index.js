@@ -9,18 +9,21 @@ export const Media = [
   },
   {
     type: "image",
-    url: require("./WhatsApp Image 2024-01-02 at 09.23.57.jpeg"),
+    url: require("./kay6.jpg"),
   },
   {
     type: "image",
     url: require("./WhatsApp Image 2024-01-02 at 09.23.57 (3).jpeg"),
   },
+  { type: "image", url: require("./kay2.jpg") },
+ 
+  { type: "image", url: require("./kay5.jpg") },
+ 
+
   {
     type: "image",
     url: require("./39FA3FD4-87E9-4422-85CF-CA1EDF8A71C7 (1).JPG"),
   },
-  { type: "image", url: require("./IMG_7945.JPG") },
-  { type: "image", url: require("./IMG_1408.JPG") },
   {
     type: "image",
     url: require("./WhatsApp Image 2024-01-02 at 09.23.53.jpeg"),
@@ -42,7 +45,7 @@ export const Performance = [
   { type: "image", url: require("./Group7.jpg") },
   {
     type: "image",
-    url: require("./39FA3FD4-87E9-4422-85CF-CA1EDF8A71C7 (1).JPG"),
+    url: require("./WhatsApp Image 2024-01-02 at 09.23.53.jpeg"),
   },
   {
     type: "image",
@@ -57,15 +60,15 @@ export const Performance = [
 
 export const Archive = [
   { type: "image", url: require("./kayGif.gif") },
-  { type: "image", url: require("./IMG_7946.JPG") },
+  { type: "image", url: require("./kay7.jpg") },
   {
     type: "image",
     url: require("./0B36318B-BD0B-4D6F-BE3E-E8F4F5D74C6B (1).JPG"),
   },
-  { type: "image", url: require("./IMG_7945.JPG") },
+  { type: "image", url: require("./kay1.jpg") },
   {
     type: "image",
-    url: require("./081ABC57-46B3-4D8C-830C-8E3870864417 (1).JPG"),
+    url: require("./kay3.jpg"),
   },
   {
     type: "image",
@@ -78,6 +81,6 @@ export const Archive = [
   { type: "image", url: require("./IMG_1407.JPG") },
   {
     type: "image",
-    url: require("./1148DBA1-208B-43E8-9FDF-84EA58F44A08 (1).JPG"),
+    url: require("./kay4.jpg"),
   },
 ];

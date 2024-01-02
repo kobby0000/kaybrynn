@@ -5,7 +5,8 @@ import "aos/dist/aos.css";
 import { Performance, Archive } from "../../assets/index";
 import ScrollToTop from "../../components/scollToTop/ScrollToTop";
 
-import flyer from "../../assets/IMG_7946.JPG";
+// images
+import flyer from "../../assets/kay7.jpg";
 
 function Gallery() {
   const [file, setFile] = useState(null);
