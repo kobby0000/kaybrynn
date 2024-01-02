@@ -373,6 +373,12 @@ function Home() {
               : <img src={file?.url} alt="kay bryn music" />
             }
           </div>
+          <div className="gallery_btn_container">
+        <button className="btn">
+          <span></span>
+          <a href="/gallery">See More</a>
+          </button>
+          </div>
         </div>
       </section>
       <ScrollToTop />

@@ -59,6 +59,7 @@
     color: #fff;
     font-weight: 300;
     transition: color var(--transition);
+    overflow: hidden;
 }
 
 #header .header_wrapper .header_middle a:hover,
@@ -86,7 +87,6 @@
     color: #fff;
     font-size: var(--primary_font);
     padding: 0.7rem 1.3rem;
-    isolation: isolate;
 }
 
 #header .header_wrapper .humburger {
