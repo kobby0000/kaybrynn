@@ -132,7 +132,6 @@
 }
 
 @media screen and (max-width: 700px) {
-    
     #header .header_wrapper {
         flex-direction: column;
         max-width: 100%;
@@ -142,7 +141,7 @@
     }
 
     #header .header_wrapper .nav_logo {
-        width: 100px;
+        width: 88px;
         position: absolute;
         top: 1rem;
         left: 2rem;
