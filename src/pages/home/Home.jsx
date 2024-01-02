@@ -375,10 +375,6 @@ function Home() {
             }
           </div>
           <div className="gallery_btn_container">
-        <button className="btn">
-          <span></span>
-          <a href="/gallery">See More</a>
-          </button>
           <button className="btn">
           <span></span>
           <Link to="/gallery">See More</Link>
