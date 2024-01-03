@@ -183,7 +183,16 @@
 
 @media screen and (max-width: 450px) {
   #gallery_showcase .gallery_wrapper_showcase p {
-    font-size: 1.8rem;
+    font-size:2rem;
     color: var(--primary_color);
+  }
+
+  .gallery_update_wrapper .top p:nth-child(1) {
+    font-size: 1.8rem;
+  }
+
+  .gallery_update_wrapper .bottom .right p:nth-child(1) {
+    font-size: 1.7rem;
+    line-height: 1;
   }
 }
