@@ -22,7 +22,7 @@ export const Media = [
 
   {
     type: "image",
-    url: require("./39FA3FD4-87E9-4422-85CF-CA1EDF8A71C7 (1).JPG"),
+    url: require("./IMG_6384 (1).jpg"),
   },
   {
     type: "image",
@@ -37,10 +37,10 @@ export const Media = [
 export const Performance = [
   {
     type: "image",
-    url: require("./FA63B7BB-6F35-43E6-86FC-3E1F94D91DEC (2).JPG"),
+    url: require("./FA63B7BB-6F35-43E6-86FC-3E1F94D91DEC (2).jpg"),
   },
   { type: "image", url: require("./IMG_6378 (1).jpg") },
-  { type: "image", url: require("./IMG_6384 (1).JPG") },
+  { type: "image", url: require("./IMG_6384 (1).jpg") },
   { type: "image", url: require("./WhatsApp Image 2024-01-02 at 09.23.57 (1).jpeg") },
   { type: "image", url: require("./Group7.jpg") },
   {
@@ -51,7 +51,7 @@ export const Performance = [
     type: "image",
     url: require("./WhatsApp Image 2024-01-02 at 09.23.57.jpeg"),
   },
-  { type: "image", url: require("./IMG_6394 (1).JPG") },
+  { type: "image", url: require("./IMG_6394 (1).jpg") },
   {
     type: "image",
     url: require("./WhatsApp Image 2024-01-02 at 09.23.57 (3).jpeg"),
@@ -78,7 +78,7 @@ export const Archive = [
     type: "image",
     url: require("./6115482C-5EEC-4286-862E-BE5649995593 (1).JPG"),
   },
-  { type: "image", url: require("./IMG_1407.JPG") },
+  { type: "image", url: require("./IMG_1407.jpg") },
   {
     type: "image",
     url: require("./kay4.jpg"),

@@ -19,7 +19,7 @@ function Footer() {
           <ul>
             {/* <li><span>ADDRESS:</span> 58 LONG ROAD, UK</li> */}
             <li><span>PHONE:</span> +44 7838 681583</li>
-            <li><span>E-MAIL:</span> Officialkaybryn@gmail.com</li>
+            <li><span>E-MAIL:</span> Kaybrynmgmt@gmail.com</li>
           </ul>
           </div>
           <div className="bottom">

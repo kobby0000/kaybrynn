@@ -1,5 +1,5 @@
 #gallery_showcase {
-  background: url("../../assets/Group7.png") no-repeat top center/cover;
+  background: url("../../assets/Group\ 7.jpg") no-repeat top center/cover;
   /* min-height: 70vh; */
 }
 
@@ -7,7 +7,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 85vh;
+  min-height: 90vh;
+  position: relative;
+  isolation: isolate;
+}
+
+.gallery_wrapper_showcase::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
 }
 
 #gallery_showcase .gallery_wrapper_showcase p {
