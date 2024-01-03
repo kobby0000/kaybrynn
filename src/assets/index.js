@@ -22,7 +22,7 @@ export const Media = [
 
   {
     type: "image",
-    url: require("./IMG_6384 (1).jpg"),
+    url: require("./0B36318B-BD0B-4D6F-BE3E-E8F4F5D74C6B (1).JPG"),
   },
   {
     type: "image",
