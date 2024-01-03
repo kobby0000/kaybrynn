@@ -41,7 +41,7 @@ function Home() {
            data-aos-delay="400"
               data-aos-duration="900"
            >
-          <p>welcome <span>!!</span></p>
+          <p>welcome <span>!!!</span></p>
 
           </div>
           <div
