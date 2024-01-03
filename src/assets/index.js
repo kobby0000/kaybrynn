@@ -40,7 +40,7 @@ export const Performance = [
     url: require("./FA63B7BB-6F35-43E6-86FC-3E1F94D91DEC (2).jpg"),
   },
   { type: "image", url: require("./IMG_6378 (1).jpg") },
-  { type: "image", url: require("./IMG_6384 (1).jpg") },
+  { type: "image", url: require("./live_on_stage.jpg") },
   { type: "image", url: require("./WhatsApp Image 2024-01-02 at 09.23.57 (1).jpeg") },
   { type: "image", url: require("./Group7.jpg") },
   {
