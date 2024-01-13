@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import "./gallery.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -17,6 +18,24 @@ function Gallery() {
 
   return (
     <div>
+      <Helmet>
+      <title>Kay Bryn</title>
+        <meta
+      name="description"
+      content="Kay Bryn is a Ghanaian UK based Artiste hailing from the streets of London.A prolific Afro-fusion Artiste, a runway model (Kobby The Model) and a coach. Apart from modelling he has an incredible touch of an African sounds together with either afro pop, afro swing, hiphop, reggae, hip-life, the hi-life and the contemporary gospel music."
+    />
+     <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Your Organization",
+              "url": "https://your-website.com",
+              // Add more properties as needed
+            }
+          `}
+        </script>
+      </Helmet>
       <section id="gallery_showcase">
         <div className="gallery_wrapper_showcase">
           <div

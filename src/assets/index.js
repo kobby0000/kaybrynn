@@ -40,9 +40,9 @@ export const Performance = [
     url: require("./show6.jpg"),
   },
   { type: "image", url: require("./pic8.jpg") },
-  { type: "image", url: require("./live_on_stage.jpg") },
+  { type: "image", url: require("./liveonstage.jpg") },
   { type: "image", url: require("./show3.jpeg") },
-  { type: "image", url: require("./Group7.jpg") },
+  { type: "image", url: require("./group7.jpg") },
   {
     type: "image",
     url: require("./show2.jpeg"),
@@ -59,7 +59,7 @@ export const Performance = [
 ];
 
 export const Archive = [
-  { type: "image", url: require("./kayGif.gif") },
+  { type: "image", url: require("./kaygif.gif") },
   { type: "image", url: require("./kay7.jpg") },
   {
     type: "image",

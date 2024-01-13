@@ -54,7 +54,8 @@
 #home_showcase .home_showcase_wrapper .top p {
     color: #fff;
     margin: 0.5rem 0;
-    max-width: 300px;
+    max-width: 350px;
+    line-height: 1.4;
     font-family: Raleway;
 }
 
@@ -321,7 +322,7 @@
     }
 
   #home_about .home_about_wrapper .left{
-    background: url("../../assets/Screenshot\ \(19\).png")no-repeat center center/cover;
+    background: url("../../assets/screenshot19.png")no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -582,7 +583,6 @@
 
     
   #home_about .home_about_wrapper .left{
-    background: url("../../assets/Screenshot\ \(19\).png")no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     align-items: flex-end;

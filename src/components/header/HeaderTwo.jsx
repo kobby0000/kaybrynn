@@ -3,7 +3,7 @@ import "./header.css";
 import { Link, NavLink } from "react-router-dom";
 
 // images
-import navLogo from "../../assets/logo 1.png";
+import navLogo from "../../assets/logo1.png";
 
 
 function HeaderTwo() {

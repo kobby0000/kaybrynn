@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
+import { Helmet } from "react-helmet";
 import "./home.css";
-// import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaFacebook, FaInstagram, FaSpotify, FaSoundcloud, FaTwitter, FaYoutube,FaApple, FaTiktok } from "react-icons/fa";
@@ -8,9 +8,8 @@ import { CiWavePulse1 } from "react-icons/ci";
 import {Media} from "../../assets/index";
 
 // images & videos
-// import videoBackground from "../../assets/kayGif.gif";
-import quote from "../../assets/carbon_quotes.png";
-import backgroudVideo from "../../assets/WhatsAppVideo.mp4"
+import quote from "../../assets/carbonquotes.png";
+import backgroudVideo from "../../assets/whatsappvideo.mp4"
 
 
 import ScrollToTop from "../../components/scollToTop/ScrollToTop";
@@ -27,6 +26,24 @@ function Home() {
 
   return (
     <div>
+      <Helmet>
+      <title>Kay Bryn</title>
+        <meta
+      name="description"
+      content="Kay Bryn is a Ghanaian UK based Artiste hailing from the streets of London.A prolific Afro-fusion Artiste, a runway model (Kobby The Model) and a coach. Apart from modelling he has an incredible touch of an African sounds together with either afro pop, afro swing, hiphop, reggae, hip-life, the hi-life and the contemporary gospel music."
+    />
+     <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Your Organization",
+              "url": "https://your-website.com",
+              // Add more properties as needed
+            }
+          `}
+        </script>
+      </Helmet>
       <section id="home_showcase">
       <div className="video-background">
       <video autoPlay loop muted playsInline>

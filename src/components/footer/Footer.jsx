@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
 
-import footerLogo from "../../assets/logo 1.png";
+import footerLogo from "../../assets/logo1.png";
 import { FaFacebook, FaInstagram, FaSpotify, FaSoundcloud, FaTwitter, FaYoutube, FaApple, FaTiktok } from "react-icons/fa";
 import { CiWavePulse1 } from "react-icons/ci";
 
