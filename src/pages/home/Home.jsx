@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import "./home.css";
 import AOS from 'aos';
@@ -11,9 +12,8 @@ import {Media} from "../../assets/index";
 import quote from "../../assets/carbonquotes.png";
 import backgroudVideo from "../../assets/whatsappvideo.mp4"
 
-
+import AddSense from "../../components/addScripts/AddSense";
 import ScrollToTop from "../../components/scollToTop/ScrollToTop";
-import { Link } from "react-router-dom";
 
 
 
@@ -30,8 +30,9 @@ function Home() {
       <title>Kay Bryn</title>
         <meta
       name="description"
-      content="Kay Bryn is a Ghanaian UK based Artiste hailing from the streets of London.A prolific Afro-fusion Artiste, a runway model (Kobby The Model) and a coach. Apart from modelling he has an incredible touch of an African sounds together with either afro pop, afro swing, hiphop, reggae, hip-life, the hi-life and the contemporary gospel music."
+      content="Kay Bryn is a Ghanaian UK based Artiste hailing from the streets of London.A prolific Afro-fusion Artiste. An incredible touch of African sounds."
     />
+     <link rel='canonical' href='/' />
      <script type="application/ld+json">
           {`
             {
@@ -47,7 +48,7 @@ function Home() {
       <section id="home_showcase">
       <div className="video-background">
       <video autoPlay loop muted playsInline>
-        <source src={backgroudVideo} type="video/mp4" />
+        <source src={backgroudVideo} type="video/mp4" loading="lazy"/>
       </video>
     </div>
         <div className="home_showcase_wrapper container">
@@ -58,7 +59,7 @@ function Home() {
            data-aos-delay="400"
               data-aos-duration="900"
            >
-          <p>welcome <span>!!!</span></p>
+          <h1>welcome <span>!!!</span></h1>
 
           </div>
           <div
@@ -205,7 +206,7 @@ function Home() {
         //          data-aos-duration="900"
         // data-aos-anchor-placement="top-bottom"
               className="frame">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/eSjoEzDXKGY?si=wNdQhv-hetEY4s9P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eSjoEzDXKGY?si=wNdQhv-hetEY4s9P" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <div className="title">
                 <a href="https://youtu.be/eSjoEzDXKGY?si=wNdQhv-hetEY4s9P" target="_blank" rel="noopener noreferrer">
                   Kay Bryn Hyira Me ft. Dopeation
@@ -213,7 +214,7 @@ function Home() {
                 </div>
               </div>
               <div className="frame">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/fZqEdsvuDVg?si=QE-BM8uRxSxVupEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/fZqEdsvuDVg?si=QE-BM8uRxSxVupEO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <div className="title">
                 <a href="https://youtu.be/fZqEdsvuDVg?si=QE-BM8uRxSxVupEO" target="_blank" rel="noopener noreferrer">
                   Kay Bryn - Fresh Boy
@@ -221,7 +222,7 @@ function Home() {
                 </div>
               </div>
               <div className="frame">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/lg2zRlMwSrs?si=sZ_-23AWHGUvnfZZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/lg2zRlMwSrs?si=sZ_-23AWHGUvnfZZ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <div className="title">
                 <a href="https://youtu.be/lg2zRlMwSrs?si=sZ_-23AWHGUvnfZZ" target="_blank" rel="noopener noreferrer">
                 Kay Bryn - WakaWaka
@@ -229,7 +230,7 @@ function Home() {
                 </div>
               </div>
               <div className="frame">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/tH6o-HVRZ3s?si=hcExHhJzMe6wCpg6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/tH6o-HVRZ3s?si=hcExHhJzMe6wCpg6" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <div className="title">
                 <a href="https://youtu.be/tH6o-HVRZ3s?si=hcExHhJzMe6wCpg6" target="_blank" rel="noopener noreferrer">
                 Kay Bryn - DeDe
@@ -237,7 +238,7 @@ function Home() {
                 </div>
               </div>
               <div className="frame">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/BbWQWy692mw?si=RFjo-_SRaR9hzdE_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/BbWQWy692mw?si=RFjo-_SRaR9hzdE_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <div className="title">
                 <a href="https://youtu.be/BbWQWy692mw?si=RFjo-_SRaR9hzdE_" target="_blank" rel="noopener noreferrer">
                 Kay Bryn - Money
@@ -245,7 +246,7 @@ function Home() {
                 </div>
               </div>
               <div className="frame">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/t4w967iwX8E?si=AGKMM-FI-xpCuEXF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/t4w967iwX8E?si=AGKMM-FI-xpCuEXF" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <div className="title">
                 <a href="https://youtu.be/t4w967iwX8E?si=AGKMM-FI-xpCuEXF" target="_blank" rel="noopener noreferrer">
                 Kay Bryn - Thinking ft. Article Wan
@@ -253,7 +254,7 @@ function Home() {
                 </div>
               </div>
               <div className="frame">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/WvTXmd9Wp0E?si=w3hoZ26Yznus3WLj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/WvTXmd9Wp0E?si=w3hoZ26Yznus3WLj" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <div className="title">
                 <a href="https://youtu.be/WvTXmd9Wp0E?si=w3hoZ26Yznus3WLj" target="_blank" rel="noopener noreferrer">
                 Kay Bryn - Baa Sumo Mi (Official Video)
@@ -261,7 +262,7 @@ function Home() {
                 </div>
               </div>
               <div className="frame">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/9DR_7mXnyC8?si=pcpbpown-_DGNT5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/9DR_7mXnyC8?si=pcpbpown-_DGNT5_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <div className="title">
                 <a href="https://youtu.be/9DR_7mXnyC8?si=pcpbpown-_DGNT5_" target="_blank" rel="noopener noreferrer">
                 Kay Bryn - Wahala (Visualizer)
@@ -276,6 +277,7 @@ function Home() {
               </button>
           </div>
         </div>
+        <AddSense client="ca-pub-2331167376516057" slot="9938910058"/>
       </section>
 
       <section id="home_about">
@@ -288,7 +290,7 @@ function Home() {
             data-aos-delay="400"
                data-aos-duration="900"
             className="quote">
-              <img src={quote} alt="Kay Bryn Music" />
+              <img src={quote} alt="quote icon" width="10" height="auto" loading="lazy"/>
               <p>The best experiences comes from the soul.</p>
             </div>
             <p
@@ -388,7 +390,7 @@ function Home() {
               <div className="media" key={index} onClick={() => setFile(file)}>
                 {
                 file.type === 'image'
-                ? <img src={file.url} alt="Kay Bryn Music" loading="lazy"></img>
+                ? <img src={file.url} alt={file.description} width="500" height="600" loading="lazy"></img>
                 : <video src={file.url} muted loading="lazy"/>
                 }
               </div>
@@ -402,7 +404,7 @@ function Home() {
             {
               file?.type === 'video'
               ? <video src={file?.url} muted autoplay controls loading="lazy"/>
-              : <img src={file?.url} alt="kay bryn music" loading="lazy"/>
+              : <img src={file?.url} alt="kay bryn music video" width="500" height="600" loading="lazy"/>
             }
           </div>
           <div className="gallery_btn_container">

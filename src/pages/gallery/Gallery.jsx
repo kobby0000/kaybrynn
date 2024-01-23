@@ -16,14 +16,29 @@ function Gallery() {
     AOS.init();
   }, []);
 
+  useEffect(() => {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);
+
+  const adCode = `
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2331167376516057"
+         data-ad-slot="9938910058"
+         data-ad-format="auto">
+    </ins>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  `;
+
   return (
     <div>
       <Helmet>
-      <title>Kay Bryn</title>
+      <title>Performance & Gallery</title>
         <meta
       name="description"
-      content="Kay Bryn is a Ghanaian UK based Artiste hailing from the streets of London.A prolific Afro-fusion Artiste, a runway model (Kobby The Model) and a coach. Apart from modelling he has an incredible touch of an African sounds together with either afro pop, afro swing, hiphop, reggae, hip-life, the hi-life and the contemporary gospel music."
+      content="Get updated in performace programme updates from Kay Bryn and enjoy the pictures and videos from previous performances "
     />
+    <link rel='canonical' href='/gallery' />
      <script type="application/ld+json">
           {`
             {
@@ -44,7 +59,8 @@ function Gallery() {
             data-aos-delay="400"
             data-aos-duration="900"
           >
-            <p>Events & Gallery</p>
+            <h1>Events & Gallery</h1>
+            {/* <p></p> */}
           </div>
         </div>
       </section>
@@ -100,7 +116,7 @@ function Gallery() {
               // data-aos-anchor-placement="top-bottom"
               className="left"
             >
-              <img src={flyer} alt="kay bryn music" />
+              <img src={flyer} alt="kay bryn music" loading="lazy"/>
             </div>
             <article className="right">
               <p
@@ -157,8 +173,11 @@ function Gallery() {
             </article>
           </div>
         </div>
+        <div dangerouslySetInnerHTML={{ __html: adCode }} />
       </section>
+      <div>
 
+      </div>
       <section id="performance_gallery">
         <div className="home_gallery_wrapper container">
           <p
@@ -182,7 +201,7 @@ function Gallery() {
             {Performance.map((file, index) => (
               <div className="media" key={index} onClick={() => setFile(file)}>
                 {file.type === "image" ? (
-                  <img src={file.url} alt="Kay Bryn Music" loading="lazy"></img>
+                  <img src={file.url} alt="Stage Performance" loading="lazy"></img>
                 ) : (
                   <video src={file.url} muted />
                 )}
@@ -197,7 +216,8 @@ function Gallery() {
             {file?.type === "video" ? (
               <video src={file?.url} muted autoplay controls loading="lazy" />
             ) : (
-              <img src={file?.url} alt="kay bryn music" loading="lazy" />
+              <img src={file?.url}
+               alt="kay bryn stage performance" loading="lazy" />
             )}
           </div>
         </div>
@@ -225,9 +245,9 @@ function Gallery() {
             {Archive.map((file, index) => (
               <div className="media" key={index} onClick={() => setFile(file)}>
                 {file.type === "image" ? (
-                  <img src={file.url} alt="Kay Bryn Music"></img>
+                  <img src={file.url} alt='kay bryn stage performance' loading="lazy"></img>
                 ) : (
-                  <video src={file.url} muted />
+                  <video src={file.url} muted loading="lazy"/>
                 )}
               </div>
             ))}
@@ -238,9 +258,9 @@ function Gallery() {
           >
             <span onClick={() => setFile(null)}>&times;</span>
             {file?.type === "video" ? (
-              <video src={file?.url} muted autoplay controls />
+              <video src={file?.url} muted autoplay controls loading="lazy"/>
             ) : (
-              <img src={file?.url} alt="kay bryn music" />
+              <img src={file?.url} alt="kay bryn music" loading="lazy"/>
             )}
           </div>
         </div>

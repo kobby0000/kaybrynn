@@ -49,23 +49,31 @@
     align-items: flex-start;
     justify-content: flex-end;
     margin-top: 5rem;
+    max-width: 350px;
 }
 
-#home_showcase .home_showcase_wrapper .top p {
+#home_showcase .home_showcase_wrapper .top h1 {
+  font-size: 3rem;
+  font-weight: 400;
     color: #fff;
     margin: 0.5rem 0;
-    max-width: 350px;
     line-height: 1.4;
     font-family: Raleway;
 }
 
-#home_showcase .home_showcase_wrapper .top div:first-child p{
-    font-size: 3rem;
-    font-weight: 400;
+#home_showcase .home_showcase_wrapper .top h1 span {
+  color: var(--primary_color);
 }
 
-#home_showcase .home_showcase_wrapper .top p:last-child {
+/* #home_showcase .home_showcase_wrapper .top div:first-child p{
+    font-size: 3rem;
+    font-weight: 400;
+  }
+   */
+  #home_showcase .home_showcase_wrapper .top p:last-child {
+  color: #f4f4f4;
     font-size: 1rem;
+    line-height: 1.4;
 }
 
 #home_showcase .home_showcase_wrapper .top p:last-child > span {

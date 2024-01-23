@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 import "./header.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 // images
 import navLogo from "../../assets/logo1.png";
@@ -28,9 +28,9 @@ function Header() {
       id="header" 
       className={navbar ? "active" : ""}>
         <div className={toggle ? "header_wrapper container increase" : "header_wrapper container"}>
-          <NavLink to="/">
-          <img src={navLogo} alt="kay bryn logo"  className="nav_logo"/>
-          </NavLink>
+          <a href="#home_showcase">
+          <img src={navLogo} alt="kay bryn logo"  className="nav_logo" width="10" height="auto" loading="lazy"/>
+          </a>
           <div className={toggle ? "links toggle" : "links"}>
             <ul className={toggle ? "header_middle toggle" : "header_middle"}>
               <li onClick={( ) => setToggle(false)}>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import { Link } from "react-router-dom";
 
 import footerLogo from "../../assets/logo1.png";
 import { FaFacebook, FaInstagram, FaSpotify, FaSoundcloud, FaTwitter, FaYoutube, FaApple, FaTiktok } from "react-icons/fa";
@@ -13,9 +12,9 @@ function Footer() {
       <section id="footer">
         <div className="footer_wrapper container">
           <div className="top">
-            <Link to="/">
-            <img src={footerLogo} alt="kay bryn music" className="footer_logo" />
-            </Link>
+            <a href="/">
+            <img src={footerLogo} alt="kay bryn music" className="footer_logo" width="10" height="auto" loading="lazy"/>
+            </a>
           <ul>
             {/* <li><span>ADDRESS:</span> 58 LONG ROAD, UK</li> */}
             <li><span>PHONE:</span> +44 7838 681583</li>

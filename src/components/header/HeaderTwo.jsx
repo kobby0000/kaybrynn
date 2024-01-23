@@ -28,7 +28,7 @@ function HeaderTwo() {
       className={navbar ? "active" : ""}>
         <div className={toggle ? "header_wrapper container increase" : "header_wrapper container"}>
           <NavLink to="/">
-          <img src={navLogo} alt="kay bryn logo"  className="nav_logo"/>
+          <img src={navLogo} alt="kay bryn logo"  className="nav_logo" width="10" height="auto" loading="lazy"/>
           </NavLink>
           <div className={toggle ? "links toggle" : "links"}>
             <ul className={toggle ? "header_middle toggle" : "header_middle"}>
