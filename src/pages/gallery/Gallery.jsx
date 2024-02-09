@@ -7,7 +7,8 @@ import { Performance, Archive } from "../../assets/index";
 import ScrollToTop from "../../components/scollToTop/ScrollToTop";
 
 // images
-import flyer from "../../assets/kay7.jpg";
+import flyer from "../../assets/group7.jpg";
+import flyerTwo from "../../assets/flyer.png";
 
 function Gallery() {
   const [file, setFile] = useState(null);
@@ -137,39 +138,53 @@ function Gallery() {
                 className="underline"
               ></div>
               <div className="cards">
-                {/* <div className="left"> */}
-                <div className="card">
-                  <p
+                <div 
+                  data-aos="flip-left"
+                  data-aos-easing="ease-in"
+                  data-aos-delay="500"
+                  data-aos-duration="900"
+                  data-aos-anchor-placement="top-bottom"
+                className="left">
+                  {/* <p
                     data-aos="flip-left"
                     data-aos-easing="ease-in"
-                    data-aos-delay="500"
+                    data-aos-delay="700"
                     data-aos-duration="900"
                     data-aos-anchor-placement="top-bottom"
-                  >
-                    coming Soon !!!
+                  > */}
+                    <img src={flyerTwo} alt="concert flyer" />
+                    {/* coming Soon !!!
                   </p>
-                  {/* <p>London, UK</p>
+                  <p>London, UK</p>
                     <p>22 avenu road Great Arena</p> */}
+                
                 </div>
-                {/* <div className="card">
-                    <p>23 Mar</p>
-                    <p>London, UK</p>
-                    <p>22 avenu road Great Arena</p>
-                  </div>
-                </div>
-                <div className="right">
-                  <div className="card">
-                    <p>23 Mar</p>
-                    <p>London, UK</p>
-                    <p>22 avenu road Great Arena</p>
-                  </div>
-                  <div className="card">
-                    <p>23 Mar</p>
-                    <p>London, UK</p>
-                    <p>22 avenu road Great Arena</p>
-                  </div> */}
+                  <div 
+                  data-aos="fade-up"
+                  data-aos-easing="ease-in"
+                  data-aos-delay="700"
+                  data-aos-duration="900"
+                  data-aos-anchor-placement="top-bottom"
+                  className="card"
+                  >
+                    <div className="text">
+                      <p>Date: </p>
+                      <p>Sunday May 19th 2024</p>
+                    </div>
+                    <div className="text">
+                      <p>Venue:</p>
+                      <p className="middle">Purple turtle (Reading) 9 gun street reading RG12JR</p>
+                    </div>
+                    <div className="text">
+                      <p>Time:</p>
+                      <p>7pm - 3am</p>
+                    </div>
+                    <div className="btn_container">
+                 <a href="/apply_ticket" className="btn_main event_btn">Free Ticket</a>
+                    </div>
               </div>
-              {/* </div> */}
+
+               </div>
             </article>
           </div>
         </div>

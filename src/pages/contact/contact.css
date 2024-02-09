@@ -2,7 +2,7 @@
 #contact-main .contact-main-showcase{
   position: relative;
   padding: 8rem 0 5rem 0;
-  /* background:url("../../assets/images/contact.jpg")no-repeat center center/cover ; */
+  background:url("../../assets/headset.jpg")no-repeat center center/cover;
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -105,7 +105,7 @@
   }
   
   #contact-main .submit-button {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary_color);
     color: #fff;
     padding: 10px 20px;
     font-size: 18px;

@@ -10,7 +10,7 @@ import {
 import { 
   Home,
   // About,
-  // Contact,
+  Contact,
   // Music,
   Gallery,
  } from "./pages/Index";
@@ -26,8 +26,8 @@ const router = createBrowserRouter(
       <Route element={<RootLayout/>}>
       <Route index element= {<Home />} />
       {/* <Route path="/biography" element= {<About />} /> */}
-      {/* <Route path="/contact_us" element= {<Contact />} />
-      <Route path="/music_videos" element= {<Music />} /> */}
+      <Route path="/apply_ticket" element= {<Contact />} />
+      {/* <Route path="/music_videos" element= {<Music />} /> */}
       {/* <Route path="/Gallery" element= {<Gallery />} /> */}
       </Route>
 

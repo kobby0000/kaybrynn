@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Example: Home Page -->
+  <url>
+    <loc>https://kaybryn.com/</loc>
+    <lastmod>2024-01-14T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+
+     <!-- Videos associated with this section -->
+    <video:video>
+      <video:thumbnail_loc>https://kaybryn.com/assets/whatsappvideo.jpg</video:thumbnail_loc>
+      <video:title>Home showcase Video</video:title>
+      <video:description>Kay Bryn Video of stage performance</video:description>
+      <video:content_loc>https://kaybryn.com/assets/whatsappvideo.mp4</video:content_loc>
+    </video:video>
+
+    <!-- ======= IMAGES ======= -->
+    <image:image>
+      <image:loc>https://kaybryn.com/assets/show1.jpeg</image:loc>
+      <image:loc>https://kaybryn.com/assets/show3.jpeg</image:loc>
+      <image:loc>https://kaybryn.com/assets/kay6.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/show4.jpeg</image:loc>
+      <image:loc>https://kaybryn.com/assets/kay2.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/kay5.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/pic1.JPG</image:loc>
+      <image:loc>https://kaybryn.com/assets/show2.jpeg</image:loc>
+      <image:loc>https://kaybryn.com/assets/logo1.png</image:loc>
+    </image:image>
+  </url>
+
+   <!-- ===== SECTION ON HOMEPAGE ====== -->
+   <url>
+    <loc>https://kaybryn.com/#home_showcase</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+   <url>
+    <loc>https://kaybryn.com/#home_about</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://kaybryn.com/#home_video</loc>
+    <lastmod>2024-01-14T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- ======= VIDEOS ======= -->
+    <video:video>
+    <video:thumbnail_loc>https://kaybryn.com/#home_video</video:thumbnail_loc>
+    <!-- Other video details... -->
+    <video:title>Home youtube Video</video:title>
+      <video:description>Kay Bryn Hyira Me ft. Dopeation</video:description>
+  </video:video>
+  <video:video>
+    <video:thumbnail_loc>https://kaybryn.com/#home_video</video:thumbnail_loc>
+    <!-- Other video details... -->
+    <video:title>Home youtube Video</video:title>
+      <video:description>Kay Bryn - Fresh Boy</video:description>
+  </video:video>
+  <video:video>
+    <video:thumbnail_loc>https://kaybryn.com/#home_video</video:thumbnail_loc>
+    <!-- Other video details... -->
+    <video:title>Home youtube Video</video:title>
+      <video:description>Kay Bryn - WakaWaka</video:description>
+  </video:video>
+  <video:video>
+    <video:thumbnail_loc>https://kaybryn.com/#home_video</video:thumbnail_loc>
+    <!-- Other video details... -->
+    <video:title>Home youtube Video</video:title>
+      <video:description>Kay Bryn - DeDe</video:description>
+  </video:video>
+  <video:video>
+    <video:thumbnail_loc>https://kaybryn.com/#home_video</video:thumbnail_loc>
+    <!-- Other video details... -->
+    <video:title>Home youtube Video</video:title>
+      <video:description>Kay Bryn - Money</video:description>
+  </video:video>
+  <video:video>
+    <video:thumbnail_loc>https://kaybryn.com/#home_video</video:thumbnail_loc>
+    <!-- Other video details... -->
+    <video:title>Home youtube Video</video:title>
+      <video:description>Kay Bryn - Thinking ft. Article Wan</video:description>
+  </video:video>
+  <video:video>
+    <video:thumbnail_loc>https://kaybryn.com/#home_video</video:thumbnail_loc>
+    <!-- Other video details... -->
+    <video:title>Home youtube Video</video:title>
+      <video:description>Kay Bryn - Baa Sumo Mi (Official Video)</video:description>
+  </video:video>
+  <video:video>
+    <video:thumbnail_loc>https://kaybryn.com/#home_video</video:thumbnail_loc>
+    <!-- Other video details... -->
+    <video:title>Home youtube Video</video:title>
+      <video:description>Kay Bryn - Wahala (Visualizer)</video:description>
+  </video:video>
+  </url>
+
+    <url>
+    <loc>https://kaybryn.com/#footer</loc>
+    <lastmod>2024-01-14T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+
+  <!-- Example: gallery Page -->
+  <url>
+    <loc>https://kaybryn.com/gallery</loc>
+    <lastmod>2024-01-14T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+
+    <!-- ======= IMAGES ======= -->
+      <image:image>
+      <image:loc>https://kaybryn.com/assets/kay7.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/show6.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/pic8.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/liveonstage.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/show3.jpeg</image:loc>
+      <image:loc>https://kaybryn.com/assets/group7.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/show2.jpeg</image:loc>
+      <image:loc>https://kaybryn.com/assets/show7.jpeg</image:loc>
+      <image:loc>https://kaybryn.com/assets/pic5.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/show5.jpeg</image:loc>
+      <image:loc>https://kaybryn.com/assets/kaygif.gif</image:loc>
+      <image:loc>https://kaybryn.com/assets/kay7.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/pic1.JPG</image:loc>
+      <image:loc>https://kaybryn.com/assets/kay1.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/kay3.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/pic3.JPG</image:loc>
+      <image:loc>https://kaybryn.com/assets/pic2.JPG</image:loc>
+      <image:loc>https://kaybryn.com/assets/pic4.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/kay4.jpg</image:loc>
+      <image:loc>https://kaybryn.com/assets/logo1.png</image:loc>
+    </image:image>
+  </url>
+
+
+</urlset>
