@@ -33,8 +33,8 @@ function Home() {
       content="Kay Bryn is a Ghanaian UK based Artiste hailing from the streets of London.A prolific Afro-fusion Artiste. An incredible touch of African sounds."
     />
      <link rel='canonical' href='/' />
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2331167376516057"
-     crossorigin="anonymous"></script>
+     {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2331167376516057"
+     crossorigin="anonymous"></script> */}
       </Helmet>
       <section id="home_showcase">
       <div className="video-background">

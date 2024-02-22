@@ -23,8 +23,8 @@ function Contact() {
       content="Get updated in performace programme updates from Kay Bryn and enjoy the pictures and videos from previous performances "
     />
     <link rel='canonical' href='/apply_ticket' />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2331167376516057"
-     crossorigin="anonymous"></script>
+    {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2331167376516057"
+     crossorigin="anonymous"></script> */}
       </Helmet>
 
     <div id="contact-main">
