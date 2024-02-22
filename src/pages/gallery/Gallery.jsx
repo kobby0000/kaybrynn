@@ -8,7 +8,7 @@ import ScrollToTop from "../../components/scollToTop/ScrollToTop";
 
 // images
 import flyer from "../../assets/group7.jpg";
-import flyerTwo from "../../assets/flyer.png";
+import flyerTwo from "../../assets/flyer.jpg";
 
 function Gallery() {
   const [file, setFile] = useState(null);
@@ -40,18 +40,10 @@ function Gallery() {
       content="Get updated in performace programme updates from Kay Bryn and enjoy the pictures and videos from previous performances "
     />
     <link rel='canonical' href='/gallery' />
-     <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Your Organization",
-              "url": "https://your-website.com",
-              // Add more properties as needed
-            }
-          `}
-        </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2331167376516057"
+     crossorigin="anonymous"></script>
       </Helmet>
+      
       <section id="gallery_showcase">
         <div className="gallery_wrapper_showcase">
           <div

@@ -51,6 +51,8 @@ function Footer() {
           </div>
         </div>
       </section>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2331167376516057"
+     crossorigin="anonymous"></script>
     </div>
   );
 }

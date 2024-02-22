@@ -1,12 +1,41 @@
-import React from "react";
+import React, {useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Helmet } from "react-helmet";
 import "./contact.css";
 import ScrollToTop from "../../components/scollToTop/ScrollToTop";
 
 function Contact() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  useEffect(() => {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);
+
   return (
+    <div>
+      <Helmet>
+      <title>Free Concert Tickets</title>
+        <meta
+      name="description"
+      content="Get updated in performace programme updates from Kay Bryn and enjoy the pictures and videos from previous performances "
+    />
+    <link rel='canonical' href='/apply_ticket' />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2331167376516057"
+     crossorigin="anonymous"></script>
+      </Helmet>
+
     <div id="contact-main">
       <div className="contact-main-showcase">
-        <p className="head">Contact Us</p>
+        <p 
+        data-aos="flip-left"
+        data-aos-easing="ease-in"
+        data-aos-delay="400"
+        data-aos-duration="900"
+        className="head"
+        >Free Concert Tickets</p>
       </div>
       <div className="contact-container">
         <div className="top">
@@ -29,6 +58,7 @@ function Contact() {
             {/* <p className="text_center">Post: P.O Box CT 5919, Cantonments, Accra, Ghana</p> */}
           </div>
           <div className="right">
+            <p>Please fill the form and sumbit to receive you Ticket...Thank you!</p>
             {/* <form action="https://formsubmit.co/ac7b778d8e2f21dcd3f06f91904aa1c4" method="POST"> */}
             <form
               action="https://formsubmit.co/ac7b778d8e2f21dcd3f06f91904aa1c4"
@@ -74,6 +104,7 @@ Time: 7pm - 3am"
         </div>
       </div>
       <ScrollToTop />
+    </div>
     </div>
   );
 }
